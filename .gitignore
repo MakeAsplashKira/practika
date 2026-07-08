@@ -1,0 +1,35 @@
+# Зависимости
+node_modules/
+
+# Сборка
+dist/
+dist-ssr/
+
+# Локальные файлы окружения
+*.local
+.env
+.env.*
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Служебные / локальные файлы — не публикуем
+.claude/
+ТЗ-музыкальный-магазин.md
+РАЗБОР-КОДА.md
+
+# Редакторы / ОС
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
